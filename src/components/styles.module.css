@@ -1,0 +1,32 @@
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toolbarItem {
+    background: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.selected {
+    background: rgb(63, 63, 63);
+    color: white;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 200px;
+  max-height: 1180px;
+}
+
+.projectImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
